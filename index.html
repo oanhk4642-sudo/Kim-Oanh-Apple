@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kim Oanh Apple</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background:linear-gradient(pink , white); ;
+      }
+      /* HEADER */
+      header {
+        background: #404d40;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav a {
+        color: pink;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      /* BANNER */
+      .banner {
+        background: pink;
+        height: 250px;
+        text-align: center;
+        color: white;
+        padding-top: 80px;
+        
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 25px;
+        background: rgb(107, 0, 128);
+        color: white;
+        text-decoration: none;
+        border-radius: 100px;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background: rgb(60, 54, 116);
+        transform: scale(1.1);
+      }
+
+      /* FEATURES */
+      .features {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+      }
+
+      .box {
+        background: #2d83bd;
+        padding: 30px;
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        transition: 0.3s;
+      }
+     
+      .box:hover {
+        transform: translateY(-10px);
+        background: #cce5cc;
+      }
+
+      /* SECTIONS */
+      section {
+        padding: 40px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      /* TABLE */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #aaa;
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* SERVICES */
+      .service-list {
+        display: flex;
+        gap: 20px;
+      }
+
+      .service {
+        flex: 1;
+        padding: 20px;
+        background: #f0f0f0;
+        text-align: center;
+        transition: 0.3s;
+      }
+
+      .service:hover {
+        background: #d6f5d6;
+        transform: scale(1.05);
+      }
+
+      /* FORM */
+      form {
+        max-width: 400px;
+        margin: auto;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background: green;
+        color: white;
+        border: none;
+      }
+
+      /* FOOTER */
+      footer {
+        background: #2f3e2f;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+    </style>
+
+    <!-- HEADER -->
+    <header>
+      <h1>Oanh Apple store</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- BANNER -->
+     <button style="width: 100%; background: pink;">
+       <img src="https://cdn-media.sforum.vn/storage/app/media/thanhhuyen/c%C3%B4ng%20ty%20apple/cong-ty-apple-5.jpg" alt="">
+      </button>
+      <section class="banner">
+      <h2>BEST-SELLING MODELS</h2>
+      <p>12promax – 14plus – 14promax</p>
+      <a href="#products" class="btn">Explore</a>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+      <div class="box">New seal</div>
+      <div class="box"> Sale</div>
+      <div class="box">Hot Iphone</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>Đôi nét về cửa hàng</h2>
+      <p>
+        Oanh Apple store ngon bổ rẽ cho anh em yêu thích táo. Chúng tôi cam kết
+        mang đến những sản phẩm chất lượng nhất với nguồn gốc rõ ràng.
+      </p>
+
+      <ul>
+        <li>100% full zin </li>
+        <li>Báo rõ tình trạng máy trước khi giao đến tay khách hàng</li>
+        <li>Hỗ trợ trả góp 0đ từ đủ 18 tuổi</li>
+        <li>Nợ xấu trả trước 50% nhận máy</li>
+      </ul>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+      <h2>Một số dòng máy tại cửa hàng</h2>
+
+      <table>
+        <tr>
+          <th>Dòng máy</th>
+          <th>Màu</th>
+          <th>Giá</th>
+        </tr>
+         <tr>
+          <td>xsm</td>
+          <td>trắng,đen,gold</td>
+          <td>4.900.000</td>
+        </tr>
+        <tr>
+          <td>11 thường</td>
+          <td>full màu</td>
+          <td>5.000.000</td>
+        </tr>
+        <tr>
+          <td> 11promax</td>
+          <td>Gray, Silver, Gold hay Green</td>
+          <td>6.500.000</td>
+        </tr>
+        <tr>
+          <td>12pro</td>
+          <td>gold, đen, xanh</td>
+          <td>7.800.000</td>
+        </tr>
+         <tr>
+          <td>12promax</td>
+          <td>gold, đen, xanh, trắng</td>
+          <td>9.000.000</td>
+        </tr>
+         <tr>
+          <td>13promax</td>
+          <td>gold, đen, green, trắng</td>
+          <td>10.800.000</td>
+        </tr>
+         <tr>
+          <td>14plus</td>
+          <td>tím,vàng,trắng</td>
+          <td>9.000.000</td>
+        </tr>
+         <tr>
+          <td>14promax</td>
+          <td>gold, đen, tím, trắng</td>
+          <td>14.500.000</td>
+        </tr>
+         <tr>
+          <td>15pro</td>
+          <td>titanium tự nhiên, Màu xanh titanium</td>
+          <td>15.500.000</td>
+        </tr>
+    <tr>
+          <td>15promax</td>
+          <td>titanium tự nhiên, Màu xanh titanium</td>
+          <td>20.000.000</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2>Service</h2>
+      <div class="service-list">
+        <div class="service">Hình tức trả góp</div>
+        <div class="service">Giao hàng tận nhà</div>
+        <div class="service">Apple store</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Your name" />
+
+        <label>số điện thoại của bạn</label>
+        <input type="số điện thoại của bạn" placeholder="sđt" />
+
+        <label>Dòng máy mong muốn</label>
+        <textarea placeholder="Tên dòng máy"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Kim Oanh Apple</p>
+    </footer>
+  </body>
+</html>
